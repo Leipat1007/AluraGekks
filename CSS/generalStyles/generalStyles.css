@@ -1,0 +1,26 @@
+@import url(variables.css);
+@import url(Cabecera/header.css);
+@import url(footer/contact.css);
+body {
+    font-family: var(--font-family-body);
+    font-size: 1.2rem;
+    color: var(--primary-font-color);
+}
+.title {
+    color: var(--primary-font-color);
+    font-size: 3rem;
+    font-family: var(--font-family-title);
+    font-weight: 700;
+}
+.boton {
+    background: var(--botons-color);
+    color: var(--third-font-color);
+    border: 1px solid var(--botons-color);
+    border-radius: 2rem;
+    transition: .5s ease;
+}
+.boton:hover {
+    background: var(--botons-color-hover);
+    border: 1px solid var(--botons-color-hover);
+    text-decoration: underline;
+}

@@ -1,0 +1,58 @@
+@import url(../../generalStyles/variables.css);
+.talkWithUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+.talkWithUs .talkTitle {
+    font-family: var(--font-family-title);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.talkWithUs .talkInputBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+.talkWithUs .talkInputBox .contactName {
+    width: 80%;
+    height: 1.8rem;
+    background: transparent;
+    border: 1px solid var(--second-font-color);
+    border-radius: 1rem;
+    margin: 1rem 0 1rem 0;
+    color: var(--third-font-color);
+    padding: 0 .8rem 0 .8rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.talkWithUs .talkInputBox .contactName:focus,
+.talkWithUs .talkInputBox .contactName:active {
+    outline: none;
+}
+.talkWithUs .talkInputBox .contactMessage {
+    width: 80%;
+    resize: none;
+    border: 1px solid var(--second-font-color);
+    border-radius: 1rem;
+    background: transparent;
+    color: var(--third-font-color);
+    font-size: 1.1rem;
+    padding: .8rem;
+    margin-bottom: 1rem;
+}
+.talkWithUs .talkInputBox .contactMessage:focus,
+.talkWithUs .talkInputBox .contactMessage:active {
+    outline: none;
+}
+.talkWithUs .talkInputBox .contactSend {
+    width: 10rem;
+    height: 2rem;
+    font-family: var(--font-family-title);
+    font-weight: 600;
+    cursor: pointer;
+}

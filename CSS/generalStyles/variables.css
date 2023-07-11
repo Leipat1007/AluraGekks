@@ -1,0 +1,14 @@
+:root {
+    /* fonts */
+    --font-family-body: 'Montserrat', sans-serif;
+    --font-family-title: 'Poppins', sans-serif;
+    /* colors */
+    --primary-background-color: #cbd4f5;
+    --second-background-color: #dce3ff;
+    --primary-font-color: #4d4d4d;
+    --second-font-color: #000;
+    --third-font-color: #fff;
+    /* botons */
+    --botons-color: #3961f5;
+    --botons-color-hover: #6985ec;
+}

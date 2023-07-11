@@ -1,0 +1,38 @@
+@import url(../../generalStyles/variables.css);
+@import url(productsGrid.css);
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 4%;
+    background: var(--primary-background-color);
+}
+.products .productsGrid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.products .productsGrid .titleProducts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--third-font-color);
+    padding: 2rem;
+    width: 100%;
+}
+.products .productsGrid .titleProducts .productsTitle {
+    font-family: var(--font-family-title);
+    font-size: 2.5rem;
+}
+.products .productsGrid .titleProducts .productsView {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.products .productsGrid .titleProducts .productsView:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+@import url(../../generalStyles/variables.css);
+@import url(talkWithUs.css);
+@import url(rightReserved.css);
+.footer {
+    background: var(--second-background-color);
+}
+.footer .contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4%;
+}
+.footer .contact .contactLogo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .contact .contactList-item {
+    font-family: var(--font-family-body);
+    font-size: 1.4rem;
+    margin-bottom: .8rem;
+    font-weight: 600;
+}
+.footer .contact .contactList-item a {
+    text-decoration: none;
+}
+.footer .contact .contactList-item a:hover {
+    text-decoration: underline;
+    color: var(--botons-color);
+}

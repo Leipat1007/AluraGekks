@@ -1,0 +1,13 @@
+@import url(../../generalStyles/variables.css);
+.rightReserved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+    background: var(--third-font-color);
+    padding: 2rem 4%;
+}
+.rightReserved .rightReserved-text {
+    font-family: var(--font-family-title);
+    font-weight: 700;
+}

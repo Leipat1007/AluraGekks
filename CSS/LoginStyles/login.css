@@ -1,0 +1,84 @@
+@import url(../generalStyles/variables.css);
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    font-weight: 600;
+    background: var(--third-font-color);
+}
+.container {
+    background: var(--primary-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    border: 2px solid var(--second-background-color);
+    border-radius: 1rem;
+}
+.container .loginBox {
+    position: relative;
+    width: 100%;
+    background: transparent;
+}
+.container .loginBox .singIn-title {
+    text-align: center;
+    color: var(--primary-font-color);
+    font-family: var(--font-family-title);
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+}
+.loginBox .formSingIn .inputBox {
+    width: 95%;
+    position: relative;
+    height: 4rem;
+    margin-bottom: 1rem;
+    background: transparent;
+}
+.loginBox .formSingIn .inputBox .icon {
+    position: absolute;
+    top: 1.2rem;
+    right: .8rem;
+    font-size: 1.4rem;
+    color: var(--primary-font-color);
+}
+.loginBox .formSingIn .inputBox .inputo {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid var(--primary-font-color);
+    outline: none;
+    border-radius: 2rem;
+    padding: 0 .5rem 0 .5rem;
+    font-size: 1.2rem;
+    color: var(--primary-font-color);
+    font-weight: 300;
+}
+.loginBox .formSingIn .inputBox .inputo::placeholder {
+    margin-left: 1.5rem;
+    color: var(--second-font-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.loginBox .formSingIn .rememberMe {
+    font-size: 1.1rem;
+    color: var(--second-font-color);
+    font-weight: 500;
+    margin: 2rem 0 .95rem;
+}
+.loginBox .formSingIn .formButton {
+    width: 100%;
+    height: 3rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    font-family: var(--font-family-title);
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+}
