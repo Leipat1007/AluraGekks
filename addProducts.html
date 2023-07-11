@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Alura Geeks</title>
+    <title>Agregar productos | Alura Geeks</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="CSS/generalStyles/reset.css">
-    <link rel="stylesheet" href="CSS/LoginStyles/login.css">
     <link rel="stylesheet" href="CSS/generalStyles/generalStyles.css">
+    <link rel="stylesheet" href="CSS/addProducts/addProducts.css">
 </head>
 <body>
     <header class="head" id="head">
         <div class="headBox">
             <div class="headBox-logo">
-                <a href="index.html" class="logoLink">
+                <a href="#" class="logoLink">
                     <img src="Imagen/logo.svg" alt="Logo AluraGeeks" class="logoLink-imagen">
                 </a>
-                <a href="index.html" class="logoLink">
+                <a href="#" class="logoLink">
                     <img src="Imagen/textLogo.svg" alt="Logo AluraGeeks" class="logoLink-imagen">
                 </a>
             </div>
@@ -29,30 +29,34 @@
                 </div>
             </div>
         </div>
+        <a href="productos.html" class="headLink-login boton">Menú Administrador</a>
     </header>
     <main>
-        <div class="container">
-            <div class="loginBox">
-                <h2 class="singIn-title">Iniciar sesión</h2>
-                <form action="" class="formSingIn">
-                    <div class="inputBox">
-                        <span class="icon">
-                            <i class='bx bx-envelope'></i>
-                        </span>
-                        <input type="text" class="inputo" id="inputo" placeholder="Escriba su correo electronico">
-                    </div>
-                    <div class="inputBox">
-                        <span class="icon">
-                            <i class='bx bx-lock-alt' ></i>
-                        </span>
-                        <input type="password" class="inputo" id="inputo" placeholder="Escriba su contraseña">
-                    </div>
-                    <div class="rememberMe">
-                        <label><input type="checkbox">Recordarme</label>
-                    </div>
-                    <button class="formButton boton">Entrar</button>
-                </form>
-            </div>
+        <div class="formBox">
+            <form action="" class="formAdd">
+                <h2 class="formAdd-title">Añadir nuevo producto</h2>
+                <div class="inputBox">
+                    <label for="urlImgProd" class="inputoLabel">Url imagen producto</label>
+                    <input type="text" class="inputo" id="urlImgProd">
+                </div>
+                <div class="inputBox">
+                    <label for="categoriaProd" class="inputoLabel">Categoria</label>
+                    <input type="text" class="inputo" id="categoriaProd">
+                </div>
+                <div class="inputBox">
+                    <label for="nameProd" class="inputoLabel">Nombre del producto</label>
+                    <input type="text" class="inputo" id="nameProd">
+                </div>
+                <div class="inputBox">
+                    <label for="priceProd" class="inputoLabel">Precio</label>
+                    <input type="text" class="inputo" id="priceProd">
+                </div>
+                <div class="inputBox">
+                    <label for="descriptionProd" class="inputoLabel">Descripcion</label>
+                    <input type="text" class="inputo" id="descriptionProd">
+                </div>
+                <button type="submit" class="formAdd-button boton">Añadir producto</button>
+            </form>
         </div>
     </main>
     <footer class="footer">

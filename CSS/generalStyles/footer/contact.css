@@ -2,7 +2,7 @@
 @import url(talkWithUs.css);
 @import url(rightReserved.css);
 .footer {
-    background: var(--second-background-color);
+    background: var(--primary-background-color);
 }
 .footer .contact {
     display: flex;
