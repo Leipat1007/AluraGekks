@@ -1,7 +1,0 @@
-@import url(../generalStyles/variables.css);
-.loginBox .formSingIn .inputBox input:focus~label,
-.loginBox .formSingIn .inputBox input:valid~label {
-    font-size: .8rem;
-    top: -.8rem;
-    left: 1.125rem;
-}
