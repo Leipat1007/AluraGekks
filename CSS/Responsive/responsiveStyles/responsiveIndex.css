@@ -1,0 +1,61 @@
+@media screen and (max-width: 850px) {
+    .head .headBox {
+        width: 100%;
+    }
+    .head .headBox .searchBox {
+        width: 50%;
+    }
+    .contact .contactList .contactList-item {
+        font-size: 1.2rem;
+    }
+    .contact .talkWithUs .talkTitle {
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .head {
+        flex-direction: column;
+    }
+
+    .head .headLink-login {
+        margin-top: .8rem;
+    }
+}
+@media screen and (max-width: 750px) {
+    .contact {
+        flex-direction: column;
+    }
+    .contact .contactList {
+        margin: 1rem 0 1rem 0;
+    }
+    .contact .talkWithUs {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .head .headBox {
+        flex-direction: column;
+    }
+    .head .headBox .searchBox {
+        width: 100%;
+    }
+    .contact .contactList {
+        width: 100%;
+        text-align: center;
+    }
+    .contact .contactList .contactList-item {
+        padding: 1rem;
+        border-bottom: 1px solid var(--second-font-color);
+    }
+}
+@media screen and (max-width: 650px) {
+    .head .headLink-login {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .rightReserved .rightReserved-text {
+        text-align: center;
+    }
+}

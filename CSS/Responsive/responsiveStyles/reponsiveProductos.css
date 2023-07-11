@@ -1,0 +1,50 @@
+@import url(../../generalStyles/variables.css);
+@media screen and (max-width: 850px) {
+    .contact .talkWithUs .talkTitle {
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .contact {
+        flex-direction: column;
+    }
+    .contact .talkWithUs {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .head {
+        width: 100%;
+    }
+    .contact .contactList {
+        width: 100%;
+        text-align: center;
+    }
+    .contact .contactList .contactList-item {
+        padding: 1rem;
+        border-bottom: 1px solid var(--second-font-color);
+    }
+}
+@media screen and (max-width: 600px) {
+    .head .headBox {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 480px) {
+    .products .productsGrid .titleProducts {
+        flex-direction: column;
+        padding: .8rem;
+        width: 100%;
+    }
+    .products .productsGrid .titleProducts .productsTitle {
+        margin-bottom: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .products .productsGrid .titleProducts .productsView {
+        width: 100%;
+    }
+    .footer .rightReserved .rightReserved-text {
+        text-align: center;
+    }
+}

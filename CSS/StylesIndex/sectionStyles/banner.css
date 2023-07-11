@@ -15,7 +15,8 @@
 .banner .bannerDescription {
     position: absolute;
     color: var(--third-font-color);
-    bottom: 7rem;
+    bottom: 20%;
+    transform: translateY(-50%);
     left: 3rem;
 }
 .banner .bannerDescription .bannerDescription-text {

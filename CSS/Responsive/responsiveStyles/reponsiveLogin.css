@@ -1,0 +1,34 @@
+@import url(../../generalStyles/variables.css);
+@media screen and (max-width:750px) {
+    .head {
+        width: 100%;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact .contactList {
+        margin: 1rem 0 1rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    .contact .contactList .contactList-item {
+        padding: 1rem;
+        border-bottom: 1px solid var(--second-font-color);
+    }
+    .contact .talkWithUs {
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .head .headBox{
+        flex-direction: column;
+    }
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .footer .rightReserved .rightReserved-text {
+        text-align: center;
+    }
+}

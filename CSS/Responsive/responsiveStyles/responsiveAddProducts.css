@@ -1,0 +1,67 @@
+@import url(../../generalStyles/variables.css);
+@media screen and (max-width:1200px) {
+    .head .headLink-login{
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width:1000px) {
+    .head .headLink-login{
+        font-size: 1rem;
+    }
+    .formBox .formAdd {
+        height: 70vh;
+    }
+}
+@media screen and (max-width:860px) {
+    .head {
+        flex-direction: column;
+    }
+    .head .headLink-login {
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .footer .contact .talkWithUs .talkTitle {
+        font-size: 1.68rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .head .headBox{
+        flex-direction: column;
+    }
+    .formBox .formAdd{
+        width: 100%;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact .contactList {
+        margin: 1rem 0 1rem 0;
+    }
+    .contact .talkWithUs {
+        width: 100%;
+    }
+    .footer .rightReserved .rightReserved-text {
+        text-align: center;
+    }
+}
+@media screen and (max-width:600px) {
+    .contact .contactList {
+        width: 100%;
+        text-align: center;
+    }
+    .contact .contactList .contactList-item {
+        padding: 1rem;
+        border-bottom: 1px solid var(--second-font-color);
+    }
+}
+@media screen and (max-width:490px) {
+    .head .headBox{
+        width: 100%;
+    }
+    .head .headBox .search {
+        width: 100%;
+    }
+    .formBox .formAdd .formAdd-title {
+        font-size: 1.5rem;
+    }
+}
