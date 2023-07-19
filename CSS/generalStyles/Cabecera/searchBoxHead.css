@@ -39,7 +39,7 @@
 .head .searchBox .inputBox .search:active {
     border: none;
     outline: none;
-    color: var(--third-font-color);
+    color: var(--second-font-color);
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 400;
 }
