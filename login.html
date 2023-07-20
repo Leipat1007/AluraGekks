@@ -35,18 +35,18 @@
         <div class="container">
             <div class="loginBox">
                 <h2 class="singIn-title">Iniciar sesión</h2>
-                <form action="" class="formSingIn">
+                <form action="" class="formSingIn" data-form-login>
                     <div class="inputBox">
                         <span class="icon">
                             <i class='bx bx-envelope'></i>
                         </span>
-                        <input type="text" class="inputo" id="inputo" placeholder="Escriba su correo electronico">
+                        <input type="text" class="inputo" id="inputo" placeholder="Escriba su correo electronico" data-user>
                     </div>
                     <div class="inputBox">
                         <span class="icon">
                             <i class='bx bx-lock-alt' ></i>
                         </span>
-                        <input type="password" class="inputo" id="inputo" placeholder="Escriba su contraseña">
+                        <input type="password" class="inputo" id="inputo" placeholder="Escriba su contraseña" data-password>
                     </div>
                     <div class="rememberMe">
                         <label><input type="checkbox">Recordarme</label>
@@ -85,5 +85,6 @@
             <p class="rightReserved-text">&copy; Todos los derechos reservados | Aldair Salgado 2023</p>
         </div>
     </footer>
+    <script src="Controllers/usersControllers.js" type="module"></script>
 </body>
 </html>

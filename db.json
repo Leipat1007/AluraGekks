@@ -1,124 +1,165 @@
 {
-    "productos" : [
-        {
-            "id" : "1",
-            "urlImage": "https://colmetecno.com/cdn/shop/products/ConsoladejuegosMP5Swich01.png?v=1681366081",
-            "category" : "Consolas",
-            "name" :"Consola portatil X7",
-            "price" : "45.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "2",
-            "urlImage": "https://cf.shopee.com.co/file/da145888572c640943a235a6a56e18a0",
-            "category" : "Consolas",
-            "name" :"Consola portatil X7M",
-            "price" : "60.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "3",
-            "urlImage": "https://compass-ssl.xbox.com/assets/08/7e/087efc15-7859-4641-afbc-bfddf11ba960.jpg?n=X1S-2020_Page-Hero-0_Upgrade_767x431.jpg",
-            "category" : "Consolas",
-            "name" :"Xbox One S",
-            "price" : "1200.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "4",
-            "urlImage": "https://exitocol.vtexassets.com/arquivos/ids/2458637/consola-nintendo-switch-neon-joycon-nueva-version-2019.jpg?v=637298193778300000",
-            "category" : "Consolas",
-            "name" :"Switch",
-            "price" : "800.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "5",
-            "urlImage": "https://cdn-ggpij.nitrocdn.com/tMDfLzdwuDsOeIHnPvuOZaenANwHFOXT/assets/images/optimized/rev-a28618e/wp-content/uploads/2022/02/ps555.jpg",
-            "category" : "Consolas",
-            "name" :"Play Station 5",
-            "price" : "1250.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "6",
-            "urlImage": "https://uvejuegos.com/img/caratulas/831/tumblr_mf6lq3UpjN1rtobu5o1_400.jpg",
-            "category" : "Video juegos",
-            "name" :"Street Fighter II",
-            "price" : "130.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "7",
-            "urlImage": "https://media.vandal.net/m/5003/2006101121141_1.jpg",
-            "category" : "Video juegos",
-            "name" :"Metal Gear Solid 3",
-            "price" : "50.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "8",
-            "urlImage": "https://http2.mlstatic.com/D_NQ_NP_859018-MCO49033146795_022022-O.webp",
-            "category" : "Video juegos",
-            "name" :"Super Mario Galaxy",
-            "price" : "35.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "9",
-            "urlImage": "https://media.vandal.net/t200/21167/destiny-2013930182952_1.jpg",
-            "category" : "Video juegos",
-            "name" :"Destiny",
-            "price" : "30.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "10",
-            "urlImage": "https://media.vandal.net/m/24302/bloodborne-2015412031_1.jpg",
-            "category" : "Video juegos",
-            "name" :"Blood Borne",
-            "price" : "37.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "11",
-            "urlImage": "https://http2.mlstatic.com/D_NQ_NP_622415-MCO47757866356_102021-W.jpg",
-            "category" : "Variados",
-            "name" :"Camiseta Super Mario Bros",
-            "price" : "15.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "12",
-            "urlImage": "https://cdn.palbincdn.com/users/28843/images/atari---copia-1530791753.jpg",
-            "category" : "Variados",
-            "name" :"Camista Atari",
-            "price" : "15.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "13",
-            "urlImage": "https://xcontrollers.es/wp-content/uploads/2021/10/BELLA-CIAO.png",
-            "category" : "Variados",
-            "name" :"Mando PS5 Custom",
-            "price" : "52.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "14",
-            "urlImage": "https://http2.mlstatic.com/D_NQ_NP_821697-MLM52268169043_112022-O.webp",
-            "category" : "Variados",
-            "name" :"Peluche Minecraft Pulpo",
-            "price" : "25.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        },
-        {
-            "id" : "15",
-            "urlImage": "https://cdn2.peluchilandia.es/6659-thickbox_default/peluche-mario-bross-y-amigos.jpg",
-            "category" : "Variados",
-            "name" :"Set Peluches Mario Bros",
-            "price" : "120.00",
-            "description" : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
-        }
-    ]
+  "productos": [
+    {
+      "id": "1",
+      "urlImage": "https://colmetecno.com/cdn/shop/products/ConsoladejuegosMP5Swich01.png?v=1681366081",
+      "category": "Consolas",
+      "nameProduct": "Consola portatil X7",
+      "price": "45.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "2",
+      "urlImage": "https://cf.shopee.com.co/file/da145888572c640943a235a6a56e18a0",
+      "category": "Consolas",
+      "nameProduct": "Consola portatil X7M",
+      "price": "60.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "3",
+      "urlImage": "https://compass-ssl.xbox.com/assets/08/7e/087efc15-7859-4641-afbc-bfddf11ba960.jpg?n=X1S-2020_Page-Hero-0_Upgrade_767x431.jpg",
+      "category": "Consolas",
+      "nameProduct": "Xbox One S",
+      "price": "1200.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "4",
+      "urlImage": "https://exitocol.vtexassets.com/arquivos/ids/2458637/consola-nintendo-switch-neon-joycon-nueva-version-2019.jpg?v=637298193778300000",
+      "category": "Consolas",
+      "nameProduct": "Switch",
+      "price": "800.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "5",
+      "urlImage": "https://cdn-ggpij.nitrocdn.com/tMDfLzdwuDsOeIHnPvuOZaenANwHFOXT/assets/images/optimized/rev-a28618e/wp-content/uploads/2022/02/ps555.jpg",
+      "category": "Consolas",
+      "nameProduct": "Play Station 5",
+      "price": "1250.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "6",
+      "urlImage": "https://uvejuegos.com/img/caratulas/831/tumblr_mf6lq3UpjN1rtobu5o1_400.jpg",
+      "category": "Video juegos",
+      "nameProduct": "Street Fighter II",
+      "price": "130.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "7",
+      "urlImage": "https://media.vandal.net/m/5003/2006101121141_1.jpg",
+      "category": "Video juegos",
+      "nameProduct": "Metal Gear Solid 3",
+      "price": "50.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "8",
+      "urlImage": "https://http2.mlstatic.com/D_NQ_NP_859018-MCO49033146795_022022-O.webp",
+      "category": "Video juegos",
+      "nameProduct": "Super Mario Galaxy",
+      "price": "35.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "9",
+      "urlImage": "https://media.vandal.net/t200/21167/destiny-2013930182952_1.jpg",
+      "category": "Video juegos",
+      "nameProduct": "Destiny",
+      "price": "30.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "10",
+      "urlImage": "https://media.vandal.net/m/24302/bloodborne-2015412031_1.jpg",
+      "category": "Video juegos",
+      "nameProduct": "Blood Borne",
+      "price": "37.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "11",
+      "urlImage": "https://http2.mlstatic.com/D_NQ_NP_622415-MCO47757866356_102021-W.jpg",
+      "category": "Variados",
+      "nameProduct": "Camiseta Super Mario Bros",
+      "price": "15.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "12",
+      "urlImage": "https://cdn.palbincdn.com/users/28843/images/atari---copia-1530791753.jpg",
+      "category": "Variados",
+      "nameProduct": "Camista Atari",
+      "price": "15.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "13",
+      "urlImage": "https://xcontrollers.es/wp-content/uploads/2021/10/BELLA-CIAO.png",
+      "category": "Variados",
+      "nameProduct": "Mando PS5 Custom",
+      "price": "52.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "14",
+      "urlImage": "https://http2.mlstatic.com/D_NQ_NP_821697-MLM52268169043_112022-O.webp",
+      "category": "Variados",
+      "nameProduct": "Peluche Minecraft Pulpo",
+      "price": "25.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "15",
+      "urlImage": "https://cdn2.peluchilandia.es/6659-thickbox_default/peluche-mario-bross-y-amigos.jpg",
+      "category": "Variados",
+      "nameProduct": "Set Peluches Mario Bros",
+      "price": "120.00",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "7e468bde-f2da-4c5f-b0b3-93a727977c73",
+      "urlImage": "https://m.media-amazon.com/images/I/71clAeYz0PL.jpg",
+      "category": "Variados",
+      "nameProduct": "Almohada sonic",
+      "price": "37.50",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et adipisci molestias ut praesentium eius, repellendus reiciendis sint quisquam eos sequi nulla. Omnis dolores impedit repudiandae!"
+    },
+    {
+      "id": "9fc17662-dd64-461d-877e-c6ec6d8e6aee",
+      "urlImage": "https://lacamiseta.com.co/cdn/shop/products/camiseta-dragonball22-nino-hombre-mujer.jpg",
+      "category": "Variados",
+      "nameProduct": "Camisa DBZ \"Son Goku\"",
+      "price": "10.00",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et adipisci molestias ut praesentium eius, repellendus reiciendis sint quisquam eos sequi nulla. Omnis dolores impedit repudiandae!"
+    },
+    {
+      "id": "2a684a06-bc11-46ca-b03d-354e41e3a5eb",
+      "urlImage": "https://www.mundodeportivo.com/alfabeta/hero/2018/10/13054.snes_e3.jpg",
+      "category": "Consolas",
+      "nameProduct": "Super nintendo 'SNES'",
+      "price": "856.00",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et adipisci molestias ut praesentium eius, repellendus reiciendis sint quisquam eos sequi nulla. Omnis dolores impedit repudiandae!"
+    }
+  ],
+  "users": [
+    {
+      "user": "admin",
+      "password": "12345",
+      "id": "1"
+    },
+    {
+      "user": "Admin",
+      "password": "12345",
+      "id": "1"
+    },
+    {
+      "user": "juan",
+      "password": "12345",
+      "id": "1"
+    }
+  ]
 }

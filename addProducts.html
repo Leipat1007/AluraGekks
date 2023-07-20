@@ -34,29 +34,29 @@
     </header>
     <main>
         <div class="formBox">
-            <form action="" class="formAdd">
+            <form action="" class="formAdd" data-form>
                 <h2 class="formAdd-title">Añadir nuevo producto</h2>
                 <div class="inputBox">
                     <label for="urlImgProd" class="inputoLabel">Url imagen producto</label>
-                    <input type="text" class="inputo" id="urlImgProd">
+                    <input type="text" class="inputo" id="urlImgProd" data-img>
                 </div>
                 <div class="inputBox">
                     <label for="categoriaProd" class="inputoLabel">Categoria</label>
-                    <input type="text" class="inputo" id="categoriaProd">
+                    <input type="text" class="inputo" id="categoriaProd" data-category>
                 </div>
                 <div class="inputBox">
                     <label for="nameProd" class="inputoLabel">Nombre del producto</label>
-                    <input type="text" class="inputo" id="nameProd">
+                    <input type="text" class="inputo" id="nameProd" data-name>
                 </div>
                 <div class="inputBox">
                     <label for="priceProd" class="inputoLabel">Precio</label>
-                    <input type="text" class="inputo" id="priceProd">
+                    <input type="text" class="inputo" id="priceProd" data-price>
                 </div>
                 <div class="inputBox">
                     <label for="descriptionProd" class="inputoLabel">Descripcion</label>
-                    <input type="text" class="inputo" id="descriptionProd">
+                    <input type="text" class="inputo" id="descriptionProd" data-description>
                 </div>
-                <button type="submit" class="formAdd-button boton">Añadir producto</button>
+                <button type="submit" class="formAdd-button boton" data-button>Añadir producto</button>
             </form>
         </div>
     </main>
@@ -89,5 +89,7 @@
             <p class="rightReserved-text">&copy; Todos los derechos reservados | Aldair Salgado 2023</p>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+    <script src="Controllers/addProductsControllers.js" type="module"></script>
 </body>
 </html>

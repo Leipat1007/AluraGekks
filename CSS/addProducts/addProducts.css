@@ -72,4 +72,5 @@ main {
     height: 2rem;
     font-size: 1.4rem;
     margin-top: 2rem;
+    cursor: pointer;
 }
