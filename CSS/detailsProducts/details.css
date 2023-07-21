@@ -1,0 +1,40 @@
+@import url(../generalStyles/variables.css);
+@import url(detailsProduct.css);
+@import url(detailsIcons.css);
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 70vh;
+    background: var(--second-background-color);
+    padding: 1rem;
+}
+.container .cardProduct {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background: var(--third-font-color);
+    padding: 1rem;
+    border-radius: .5rem;
+    position: relative;
+}
+.container .cardProduct .linkProduct {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    border: 1px solid var(--second-background-color);
+    border-radius: .5rem;
+    padding: .2rem;
+    color: var(--botons-color);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: var(--font-family-body);
+    transition: .5s ease;
+}
+.container .cardProduct .linkProduct:hover {
+    background: var(--botons-color);
+    color: var(--third-font-color);
+}

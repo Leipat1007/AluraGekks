@@ -8,8 +8,8 @@ const productsList = (img, name, price, id) => {
                         </div>
                         <div class="productsDescription">
                             <span class="productsTitle">${name}</span>
-                            <span class="productsPrice">$ ${price}</span>
-                            <a href="products.html?id=${id}" class="productsLink">Ver producto</a>
+                            <span class="productsPrice"><span>$</span> ${price}</span>
+                            <a href="productsDetails.html?id=${id}" class="productsLink">Ver producto</a>
                         </div>`
     content.innerHTML = contentCard;
     return content;

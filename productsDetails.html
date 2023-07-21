@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details product | Alura Geeks</title>
+    <link rel="stylesheet" href="CSS/generalStyles/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="CSS/generalStyles/generalStyles.css">
+    <link rel="stylesheet" href="CSS/detailsProducts/details.css">
+</head>
+<body>
+    <header class="head" id="head">
+        <div class="headBox">
+            <div class="headBox-logo">
+                <a href="index.html" class="logoLink">
+                    <img src="Imagen/logo.svg" alt="Logo AluraGeeks" class="logoLink-imagen">
+                </a>
+                <a href="index.html" class="logoLink">
+                    <img src="Imagen/textLogo.svg" alt="Logo AluraGeeks" class="logoLink-imagen">
+                </a>
+            </div>
+            <div class="searchBox">
+                <div class="inputBox">
+                    <span class="searchIcon"><i class='bx bx-search-alt'></i></span>
+                    <input type="text" class="search" id="search" placeholder="¿Que deseas buscar?">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container" data-content></div>
+    <footer class="footer">
+        <div class="contact">
+            <div class="contactLogo">
+                <a href="#head">
+                    <img src="Imagen/logo.svg" alt="Logo Alura Geeks">
+                    <img src="Imagen/textLogo.svg" alt="Logo Alura Geeks">
+                </a>
+            </div>
+            <ul class="contactList">
+                <li class="contactList-item"><a href="#">Quienes somos</a></li>
+                <li class="contactList-item"><a href="#">Politica de privacidad</a></li>
+                <li class="contactList-item"><a href="#">Programa de fidelidad</a></li>
+                <li class="contactList-item"><a href="#">Nuestras tiendas</a></li>
+                <li class="contactList-item"><a href="#">Quiero ser franquiciado</a></li>
+                <li class="contactList-item"><a href="#">Anúncie aqui</a></li>
+            </ul>
+            <div class="talkWithUs">
+                <h3 class="talkTitle">Hable con nosotros</h3>
+                <div class="talkInputBox">
+                    <input type="text" class="contactName">
+                    <textarea name="" id="" cols="30" rows="10" class="contactMessage"></textarea>
+                    <button class="contactSend boton">Enviar mensaje</button>
+                </div>
+            </div>
+        </div>
+        <div class="rightReserved">
+            <p class="rightReserved-text">&copy; Todos los derechos reservados | Aldair Salgado 2023</p>
+        </div>
+    </footer>
+    <script src="Controllers/detailsProductControllers.js" type="module"></script>
+</body>
+</html>

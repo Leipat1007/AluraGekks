@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agregar productos | Alura Geeks</title>
+    <title>Update Product | AluraGeeks</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="CSS/generalStyles/reset.css">
     <link rel="stylesheet" href="CSS/generalStyles/generalStyles.css">
     <link rel="stylesheet" href="CSS/addProducts/addProducts.css">
-    <link rel="stylesheet" href="CSS/Responsive/responsiveStyles/responsiveAddProducts.css">
 </head>
 <body>
     <header class="head" id="head">
@@ -35,7 +34,7 @@
     <main>
         <div class="formBox">
             <form action="" class="formAdd" data-form>
-                <h2 class="formAdd-title">Añadir nuevo producto</h2>
+                <h2 class="formAdd-title">Actualizar producto</h2>
                 <div class="inputBox">
                     <label for="urlImgProd" class="inputoLabel">Url imagen producto</label>
                     <input type="text" class="inputo" id="urlImgProd" data-img>
@@ -56,7 +55,7 @@
                     <label for="descriptionProd" class="inputoLabel">Descripcion</label>
                     <textarea name="" id="" cols="30" rows="10" data-description></textarea>
                 </div>
-                <button type="submit" class="formAdd-button boton" data-button>Añadir producto</button>
+                <button type="submit" class="formAdd-button boton" data-button>Actualizar</button>
             </form>
         </div>
     </main>
@@ -89,7 +88,6 @@
             <p class="rightReserved-text">&copy; Todos los derechos reservados | Aldair Salgado 2023</p>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
-    <script src="Controllers/addProductsControllers.js" type="module"></script>
+    <script src="Controllers/updateControllers.js" type="module"></script>
 </body>
 </html>

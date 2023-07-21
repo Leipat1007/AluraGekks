@@ -1,0 +1,44 @@
+@import url(../generalStyles/variables.css);
+.container .cardProduct .cardProduct-image {
+    width: 40rem;
+    height: 30rem;
+    padding: 1rem;
+}
+.container .cardProduct .cardProduct-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+}
+.cardProduct .cardDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+}
+.cardProduct .cardDescription .cardProduct-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardProduct .cardDescription .cardProduct-description .descriptionTitle {
+    font-size: 3rem;
+    color: var(--botons-color-hover);
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--second-background-color);
+    width: 100%;
+    text-align: center;
+}
+.cardProduct .cardDescription .cardProduct-description .descriptionPrice {
+    font-size: 1.5rem;
+    margin: 2rem 0 2rem 0;
+}
+.cardProduct .cardDescription .cardProduct-description .descriptionPrice span {
+    color: rgba(52, 52, 235, 0.425);
+}
+.cardProduct .cardDescription .cardProduct-description .descriptionText {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}

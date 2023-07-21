@@ -1,0 +1,53 @@
+@import url(../generalStyles/variables.css);
+.formBox .formAdd .inputBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 4rem;
+    padding: .5rem;
+}
+.formBox .formAdd .inputBox .inputoLabel {
+    width: 100%;
+    height: 1.2rem;
+    color: var(--primary-font-color);
+    font-weight: 600;
+    padding: .8rem;
+    font-size: .9rem;
+    margin-left: 2rem;
+}
+.formBox .formAdd .inputBox textarea {
+    width: 90%;
+    height: 3rem;
+    resize: none;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 0 1rem 0 1rem;
+    color: var(--second-font-color);
+    font-weight: 300;
+    border-radius: .5rem;
+}
+.formBox .formAdd .inputBox .inputo {
+    width: 90%;
+    height: 2rem;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 0 1rem 0 1rem;
+    color: var(--second-font-color);
+    font-weight: 300;
+    border-radius: .5rem;
+}
+.formBox .formAdd .inputBox textarea:focus,
+.formBox .formAdd .inputBox textarea:active,
+.formBox .formAdd .inputBox .inputo:focus,
+.formBox .formAdd .inputBox .inputo:active {
+    outline: none;
+}
+.formBox .formAdd .formAdd-button {
+    width: 100%;
+    height: 2rem;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
