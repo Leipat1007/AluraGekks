@@ -159,6 +159,14 @@
       "nameProduct": "Zelda tears of the kingdom",
       "price": "102.28",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
+    },
+    {
+      "id": "a69fc087-1f0c-4eaa-9169-3d3e55129c12",
+      "urlImage": "https://prod.assets.earlygamecdn.com/images/Modern-Warfare-3-Campaign-Remastered.jpg",
+      "category": "Video juegos",
+      "nameProduct": "Call of duty - Modern warfare 3",
+      "price": "11.37",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magnam tempora quae culpa doloribus placeat eaque, corporis vero unde rem!"
     }
   ],
   "users": [

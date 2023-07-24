@@ -1,4 +1,4 @@
-import { productsServices } from "../Services/API.js";
+import { productsServices } from "../Services/ProductServices.js";
 const formUpdate = document.querySelector("[data-form]");
 const info = () => {
     const url = new URL(window.location);

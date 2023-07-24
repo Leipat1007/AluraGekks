@@ -5,8 +5,9 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    grid-template: repeat(5, 1fr);
-    gap: 20px;
+    width: 70rem;
+    height: 18rem;
+    overflow: hidden;
 }
 .products .productsGrid .productsItem {
     display: flex;
@@ -17,7 +18,9 @@
     background: #fff;
     padding: .5rem;
     border-radius: 1rem;
-    margin: 1rem 0 1rem 0;
+    width: 11rem;
+    height: 16rem;
+    margin: 1rem;
 }
 .products .productsGrid .productsItem .productsImagen {
     width: 10rem;
@@ -40,6 +43,8 @@
     font-size: 1rem;
     margin: .8rem 0 .8rem 0;
     text-align: left;
+    width: 100%;
+    text-align: center;
 }
 .products .productsGrid .productsItem .productsDescription .productsPrice {
     color: var(--second-font-color);
@@ -48,12 +53,19 @@
     margin: 0 0 .8rem 0;
     text-align: left;
     font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+.products .productsGrid .productsItem .productsDescription .productsPrice span {
+    color: rgba(52, 52, 235, 0.425);
 }
 .products .productsGrid .productsItem .productsDescription .productsLink {
     text-decoration: none;
     font-family: var(--font-family-title);
     color: var(--botons-color);
     font-weight: 700;
+    width: 100%;
+    text-align: center;
 }
 .products .productsGrid .productsItem .productsDescription .productsLink:hover {
     text-decoration: underline;

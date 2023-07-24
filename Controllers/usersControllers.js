@@ -1,4 +1,4 @@
-import { usersServices } from "../Services/API_Users.js";
+import { usersServices } from "../Services/UserServices.js";
 const formLogin = document.querySelector("[data-form-login]");
 formLogin.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -8,7 +8,7 @@ formLogin.addEventListener("submit", (event) => {
         usersServices.users().then((user) => {
             user.forEach(({user, password}) => {
                 if (userLogin === user && passwordLogin === password){
-                    window.location.href="/productos.html";
+                    window.location.href="productos.html";
                 }
             });
             if (userLogin !== user || passwordLogin !== password){

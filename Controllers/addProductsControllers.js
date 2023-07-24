@@ -1,4 +1,4 @@
-import { productsServices } from "../Services/API.js";
+import { productsServices } from "../Services/ProductServices.js";
 const formProducts = document.querySelector("[data-form]");
 formProducts.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -9,6 +9,6 @@ formProducts.addEventListener("submit", (event) => {
     const descriptionProduct = document.querySelector("[data-description]").value;
     productsServices.newProduct(imgProduct,categoryProduct,nameProduct,priceProduct,descriptionProduct)
     .then(respuesta => {
-        window.location.href="/productos.html";
+        window.location.href="productos.html";
     })
 });

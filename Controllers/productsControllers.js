@@ -1,4 +1,4 @@
-import { productsServices } from "../Services/API.js";
+import { productsServices } from "../Services/ProductServices.js";
 const cardProducts = document.querySelector('[data-content]');
 const productsList = (img, name, price, id) => {
     const content = document.createElement('div');

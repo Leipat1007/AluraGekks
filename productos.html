@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos | Alura Geeks</title>
+    <link rel="icon" type="image/png" href="Imagen/logo.svg">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -25,8 +26,8 @@
             </div>
             <div class="searchBox">
                 <div class="inputBox">
-                    <span class="searchIcon"><i class='bx bx-search-alt'></i></span>
-                    <input type="text" class="search" id="search" placeholder="¿Que deseas buscar?">
+                    <span class="searchIcon" data-btn-search><i class='bx bx-search-alt'></i></span>
+                    <input type="search" class="search" id="search" placeholder="¿Que deseas buscar?" data-search>
                 </div>
             </div>
         </div>
@@ -74,6 +75,7 @@
             <p class="rightReserved-text">&copy; Todos los derechos reservados | Aldair Salgado 2023</p>
         </div>
     </footer>
+    <script src="Controllers/searchControllers.js" type="module"></script>
     <script src="Controllers/productsControllers.js" type="module"></script>
 </body>
 </html>
